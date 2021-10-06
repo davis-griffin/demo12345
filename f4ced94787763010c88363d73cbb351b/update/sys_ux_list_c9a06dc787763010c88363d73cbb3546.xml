@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list">
+    <sys_ux_list action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Demo12345 Request">81a02dc787763010c88363d73cbb35fe</category>
+        <columns>number,requested_for,opened_by,request_state,due_date</columns>
+        <condition table="x_473057_demo12345_demo12345_request">active=true^assigned_toISEMPTY^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <configuration display_value="demo12345_menu_config">05a02dc787763010c88363d73cbb35fc</configuration>
+        <groups/>
+        <list_attributes/>
+        <order>30</order>
+        <roles/>
+        <sys_class_name>sys_ux_list</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-29 07:08:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>c9a06dc787763010c88363d73cbb3546</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Unassigned</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="demo12345" source="x_473057_demo12345">f4ced94787763010c88363d73cbb351b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="demo12345">f4ced94787763010c88363d73cbb351b</sys_scope>
+        <sys_update_name>sys_ux_list_c9a06dc787763010c88363d73cbb3546</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-29 07:08:35</sys_updated_on>
+        <table>x_473057_demo12345_demo12345_request</table>
+        <title>Unassigned</title>
+    </sys_ux_list>
+</record_update>
