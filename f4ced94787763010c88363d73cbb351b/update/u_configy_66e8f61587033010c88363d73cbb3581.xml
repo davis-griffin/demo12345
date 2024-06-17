@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="u_configy">
+    <u_configy action="INSERT_OR_UPDATE">
+        <sys_class_name>u_configy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-06 13:20:57</sys_created_on>
+        <sys_id>66e8f61587033010c88363d73cbb3581</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>yewwww</sys_name>
+        <sys_package display_value="demo12345" source="x_473057_demo12345">f4ced94787763010c88363d73cbb351b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="demo12345">f4ced94787763010c88363d73cbb351b</sys_scope>
+        <sys_update_name>u_configy_66e8f61587033010c88363d73cbb3581</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-06 13:20:57</sys_updated_on>
+        <u_name>yewwww</u_name>
+        <u_who/>
+    </u_configy>
+</record_update>

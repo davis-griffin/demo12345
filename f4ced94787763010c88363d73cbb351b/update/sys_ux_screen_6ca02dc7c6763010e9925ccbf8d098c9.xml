@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="demo12345 Config">aca02dc7717630106fa92be2bea4bac6</app_config>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <event_mappings/>
+        <macroponent display_value="Agent assist">195fd4970f0210107d20409dc4767e0a</macroponent>
+        <macroponent_config>{  "isNewRecord" : "@data.gform.nowRecordFormBlob.isNewRecord",  "fields" : "@data.gform.nowRecordFormBlob.fields",  "sysId" : "@data.gform.nowRecordFormBlob.sysId",  "table" : "@data.gform.nowRecordFormBlob.table",  "cxsTableConfig" : "e15061a4b30303002bf182c136a8dc34",  "label" : "",  "bare" : true,  "scrollable" : "y",  "headerLevel" : "1",  "interceptNotifications" : false,  "propagateNotifications" : true}</macroponent_config>
+        <name>Agent Assist</name>
+        <order>0</order>
+        <parent_macroponent display_value="Record">558adc930f0210107d20409dc4767e84</parent_macroponent>
+        <required_translations>[]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="">d15fd4970f0210107d20409dc4767e08</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-29 07:08:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>6ca02dc7c6763010e9925ccbf8d098c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Agent Assist</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="demo12345" source="x_473057_demo12345">f4ced94787763010c88363d73cbb351b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="demo12345">f4ced94787763010c88363d73cbb351b</sys_scope>
+        <sys_update_name>sys_ux_screen_6ca02dc7c6763010e9925ccbf8d098c9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-29 07:08:34</sys_updated_on>
+    </sys_ux_screen>
+</record_update>
