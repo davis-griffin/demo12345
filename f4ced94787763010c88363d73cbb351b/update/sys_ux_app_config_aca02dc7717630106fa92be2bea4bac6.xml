@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config">
+    <sys_ux_app_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <custom_icon/>
+        <default_route_type/>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <encode_query_string>false</encode_query_string>
+        <icon/>
+        <landing_path>home</landing_path>
+        <name>demo12345 Config</name>
+        <prefetch_limits/>
+        <sys_class_name>sys_ux_app_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-29 07:08:34</sys_created_on>
+        <sys_id>aca02dc7717630106fa92be2bea4bac6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>demo12345 Config</sys_name>
+        <sys_package display_value="demo12345" source="x_473057_demo12345">f4ced94787763010c88363d73cbb351b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="demo12345">f4ced94787763010c88363d73cbb351b</sys_scope>
+        <sys_update_name>sys_ux_app_config_aca02dc7717630106fa92be2bea4bac6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-29 07:08:34</sys_updated_on>
+    </sys_ux_app_config>
+</record_update>

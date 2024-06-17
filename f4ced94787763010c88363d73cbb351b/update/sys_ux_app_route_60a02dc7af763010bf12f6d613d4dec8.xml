@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="demo12345 Config">aca02dc7717630106fa92be2bea4bac6</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>List</name>
+        <optional_parameters>listId,configId,tinyId</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>list</route_type>
+        <screen_type display_value="List">20a02dc7ab7630106a33ee3219ed7bc8</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-29 07:08:34</sys_created_on>
+        <sys_id>60a02dc7af763010bf12f6d613d4dec8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>List</sys_name>
+        <sys_package display_value="demo12345" source="x_473057_demo12345">f4ced94787763010c88363d73cbb351b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="demo12345">f4ced94787763010c88363d73cbb351b</sys_scope>
+        <sys_update_name>sys_ux_app_route_60a02dc7af763010bf12f6d613d4dec8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-29 07:08:34</sys_updated_on>
+    </sys_ux_app_route>
+</record_update>

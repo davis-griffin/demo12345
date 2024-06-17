@@ -17,6 +17,7 @@
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
         <group/>
         <hide_sp>false</hide_sp>
         <icon/>
@@ -39,6 +40,7 @@
         <no_proceed_checkout>false</no_proceed_checkout>
         <no_quantity>false</no_quantity>
         <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>false</no_save_as_draft>
         <no_search>false</no_search>
         <no_wishlist_v2>false</no_wishlist_v2>
         <omit_price>false</omit_price>
@@ -78,11 +80,13 @@
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2021-09-29 07:13:59</sys_updated_on>
         <table_name>x_473057_demo12345_demo12345_request</table_name>
+        <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
+        <version/>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>

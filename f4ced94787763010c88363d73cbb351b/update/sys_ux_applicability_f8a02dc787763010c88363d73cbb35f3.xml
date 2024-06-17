@@ -4,6 +4,7 @@
         <api_name>x_473057_demo12345.Audience for appdemo12345</api_name>
         <description/>
         <name>Audience for appdemo12345</name>
+        <role_names/>
         <roles name="x_473057_demo12345.demo12345_user">3e50e5c787763010c88363d73cbb3521</roles>
         <sys_class_name>sys_ux_applicability</sys_class_name>
         <sys_created_by>admin</sys_created_by>

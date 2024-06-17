@@ -4,19 +4,23 @@
         <acls/>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build/>
         <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
         <copied_from_name>FlowTemplate_Empty</copied_from_name>
         <description/>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>demo12345_flow</internal_name>
         <label_cache>[{"name":"296b209a-f007-40a3-89a9-b75bbc88b5af.Catalog Task","label":"2➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1de951cb-b625-494f-8daf-177ebe8cf638.priority","label":"1➛priority","reference":"","reference_display":"priority","type":"choice","base_type":"choice","attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"Service Catalog_1.request_item","label":"Trigger➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}}]</label_cache>
-        <latest_snapshot>ba3425cb87763010c88363d73cbb3554</latest_snapshot>
         <master_snapshot>ba3425cb87763010c88363d73cbb3554</master_snapshot>
         <name>Demo12345 flow</name>
         <natlang/>
         <outputs/>
+        <pre_compiled>false</pre_compiled>
         <remote_trigger_id>cb3465cb87763010c88363d73cbb353f</remote_trigger_id>
         <run_as>system</run_as>
         <run_with_roles/>
@@ -24,6 +28,7 @@
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
         <status>published</status>
+        <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-09-29 07:14:42</sys_created_on>
@@ -60,6 +65,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-09-29 07:24:17</sys_updated_on>
     </sys_flow_catalog_trigger>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=3a02254b87763010c88363d73cbb3582"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=3a02254b87763010c88363d73cbb3582^sys_idNOT IN8934e1cb87763010c88363d73cbb3583"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -80,6 +86,7 @@
         <trigger_type>service_catalog</trigger_type>
     </sys_hub_trigger_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8934e1cb87763010c88363d73cbb3583"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=3a02254b87763010c88363d73cbb3582"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=3a02254b87763010c88363d73cbb3582^sys_idNOT INbe02254b87763010c88363d73cbb3583"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>3a02254b87763010c88363d73cbb3582</id>
@@ -92,6 +99,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-09-29 07:14:42</sys_updated_on>
     </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=be02254b87763010c88363d73cbb3583"/>
     <sys_hub_flow_input action="delete_multiple" query="model=3a02254b87763010c88363d73cbb3582^sys_idNOT IN4134e1cb87763010c88363d73cbb3573,4d34e1cb87763010c88363d73cbb3579"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -124,6 +132,7 @@
         <element>request_item</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -170,10 +179,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4134e1cb87763010c88363d73cbb3573"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -205,6 +216,7 @@
         <element>table_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -251,20 +263,25 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4d34e1cb87763010c88363d73cbb3579"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=3a02254b87763010c88363d73cbb3582"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3a02254b87763010c88363d73cbb3582"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=3a02254b87763010c88363d73cbb3582^sys_idNOT IN5134e1cb87763010c88363d73cbb3592,c934e1cb87763010c88363d73cbb3588"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
         <action_type display_value="Create Catalog Task">af51fd0e73141300612c273ffff6a785</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
-        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Demo12345 flow">3a02254b87763010c88363d73cbb3582</flow>
+        <generation_source/>
         <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -291,15 +308,18 @@
         <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
         <value>{{Service Catalog_1.request_item}}</value>
     </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5134e1cb87763010c88363d73cbb3592"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5134e1cb87763010c88363d73cbb3592"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
         <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
         <action_type_parent/>
+        <attributes/>
         <comment/>
-        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Demo12345 flow">3a02254b87763010c88363d73cbb3582</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -378,6 +398,12 @@
         <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c934e1cb87763010c88363d73cbb3588"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c934e1cb87763010c88363d73cbb3588"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=3a02254b87763010c88363d73cbb3582"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=3a02254b87763010c88363d73cbb3582"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=3a02254b87763010c88363d73cbb3582"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=3a02254b87763010c88363d73cbb3582"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_3a02254b87763010c88363d73cbb3582^sys_idNOT IN0d34e1cb87763010c88363d73cbb3580,4534e1cb87763010c88363d73cbb3578"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>table_name</element>
@@ -425,34 +451,22 @@
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=3a02254b87763010c88363d73cbb3582^sys_idNOT IN073465cb87763010c88363d73cbb3540"/>
-    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
-        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
-        <plan/>
-        <plan_id>3a02254b87763010c88363d73cbb3582</plan_id>
-        <snapshot>ba3425cb87763010c88363d73cbb3554</snapshot>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-09-29 07:24:17</sys_created_on>
-        <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
-        <sys_id>073465cb87763010c88363d73cbb3540</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_overrides/>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-09-29 07:24:17</sys_updated_on>
-        <trigger display_value="">cb3465cb87763010c88363d73cbb353f</trigger>
-    </sys_flow_trigger_plan>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_3a02254b87763010c88363d73cbb3582"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_3a02254b87763010c88363d73cbb3582"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_3a02254b87763010c88363d73cbb3582"/>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <internal_name>demo12345_flow</internal_name>
         <label_cache>[{"name":"296b209a-f007-40a3-89a9-b75bbc88b5af.Catalog Task","label":"2➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1de951cb-b625-494f-8daf-177ebe8cf638.priority","label":"1➛priority","reference":"","reference_display":"priority","type":"choice","base_type":"choice","attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"Service Catalog_1.request_item","label":"Trigger➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}}]</label_cache>
         <master>true</master>
@@ -504,6 +518,7 @@
         <trigger_type>service_catalog</trigger_type>
     </sys_hub_trigger_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8f3465cb87763010c88363d73cbb3500"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=ba3425cb87763010c88363d73cbb3554"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=ba3425cb87763010c88363d73cbb3554^sys_idNOT INf63425cb87763010c88363d73cbb3555"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>ba3425cb87763010c88363d73cbb3554</id>
@@ -516,6 +531,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-09-29 07:24:16</sys_updated_on>
     </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=f63425cb87763010c88363d73cbb3555"/>
     <sys_hub_flow_input action="delete_multiple" query="model=ba3425cb87763010c88363d73cbb3554^sys_idNOT INb23425cb87763010c88363d73cbb35bf,ba3425cb87763010c88363d73cbb3556"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -548,6 +564,7 @@
         <element>request_item</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -594,10 +611,12 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b23425cb87763010c88363d73cbb35bf"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -629,6 +648,7 @@
         <element>table_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -675,20 +695,25 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ba3425cb87763010c88363d73cbb3556"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=ba3425cb87763010c88363d73cbb3554"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ba3425cb87763010c88363d73cbb3554"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=ba3425cb87763010c88363d73cbb3554^sys_idNOT INb23425cb87763010c88363d73cbb35ff,f63425cb87763010c88363d73cbb35dc"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
         <action_type display_value="Create Catalog Task">af51fd0e73141300612c273ffff6a785</action_type>
         <action_type_parent display_value="Create Catalog Task">f597c41073081300612c273ffff6a767</action_type_parent>
+        <attributes/>
         <comment/>
-        <compiled_snapshot>af51fd0e73141300612c273ffff6a785</compiled_snapshot>
         <display_text/>
         <flow display_value="Demo12345 flow">ba3425cb87763010c88363d73cbb3554</flow>
+        <generation_source/>
         <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -715,15 +740,18 @@
         <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
         <value>{{Service Catalog_1.request_item}}</value>
     </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b23425cb87763010c88363d73cbb35ff"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b23425cb87763010c88363d73cbb35ff"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
         <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
         <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
         <comment/>
-        <compiled_snapshot>330ba3abc31013002841b63b12d3aee8</compiled_snapshot>
         <display_text/>
         <flow display_value="Demo12345 flow">ba3425cb87763010c88363d73cbb3554</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -802,6 +830,12 @@
         <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f63425cb87763010c88363d73cbb35dc"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f63425cb87763010c88363d73cbb35dc"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=ba3425cb87763010c88363d73cbb3554"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=ba3425cb87763010c88363d73cbb3554"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=ba3425cb87763010c88363d73cbb3554"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=ba3425cb87763010c88363d73cbb3554"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_ba3425cb87763010c88363d73cbb3554^sys_idNOT IN3e3425cb87763010c88363d73cbb35c4,723425cb87763010c88363d73cbb35bb"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>request_item</element>
@@ -849,4 +883,31 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_ba3425cb87763010c88363d73cbb3554"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_ba3425cb87763010c88363d73cbb3554"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_ba3425cb87763010c88363d73cbb3554"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>3a02254b87763010c88363d73cbb3582</sys_id>
+        <latest_snapshot>ba3425cb87763010c88363d73cbb3554</latest_snapshot>
+        <compiler_build/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=3a02254b87763010c88363d73cbb3582^sys_idNOT IN073465cb87763010c88363d73cbb3540"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan/>
+        <plan_id>3a02254b87763010c88363d73cbb3582</plan_id>
+        <snapshot>ba3425cb87763010c88363d73cbb3554</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-29 07:24:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>073465cb87763010c88363d73cbb3540</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-29 07:24:17</sys_updated_on>
+        <trigger display_value="">cb3465cb87763010c88363d73cbb353f</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=3a02254b87763010c88363d73cbb3582"/>
 </record_update>
